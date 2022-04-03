@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+body {
+  background-color: rgba(0, 0, 0, 0.745);
+  color: azure;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+a {
+  color: azure;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: silver;
+}
+
+.avatar {
+  width: 285px;
+  border-radius: 45%;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-bottom: 20px;
+  /* letter-spacing: 2px; */
+  /* word-spacing: 3px; */
+}
+
+.card img {
+  border-radius: 15%;
+  width: 65px;
+}
+
+label {
+  letter-spacing: 2px;
+}
+
+#container {
+  max-width: 750px;
+  margin: auto;
+}
+
+/* .socnet {
+  background: red;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 5px solid blue;
+  border-bottom-style: double;
+  border-top-width: 50px;
+  border-right-color: aliceblue;
+  margin: 20px;
+} */
+
+/* .box-model > div {
+  float: left;
+  background: gray;
+  height: 200px;
+  border: 4px solid red;
+  width: 25%;
+  box-sizing: border-box;
+} */
+
+.bg-red {
+  background: red;
+}
+
+.bg-green {
+  background: green;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+.card {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card h2 {
+  margin-top: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table thead {
+  color: yellow;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  color: silver;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #cccc;
+  color: black;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin: 20px;
+}
+
+.button {
+  padding: 10px 10px;
+  background: gray;
+  color: black;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* .position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.box {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background: red;
+} */
